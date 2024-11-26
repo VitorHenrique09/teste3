@@ -14,7 +14,6 @@
       padding: 0;
       box-sizing: border-box;
     }
-
     header {
       background-color: #333; /* Escuro com um toque de cinza */
       text-align: center;
@@ -22,14 +21,14 @@
       border-bottom: 5px solid #00ffcc; /* Neon verde para dar destaque */
     }
 
-    header h1 {
+  header h1 {
       font-family: 'Orbitron', sans-serif;
       font-size: 48px;
       color: #00ffcc; /* Neon verde */
       margin: 0;
     }
 
-    main {
+  main {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
@@ -37,8 +36,9 @@
       gap: 20px;
     }
 
-    .movie {
-      text-align: center;
+    
+  .movie {
+    text-align: center;
       background-color: #1e1e1e; /* Fundo escuro para as divs de filmes */
       border-radius: 10px;
       padding: 15px;
@@ -47,11 +47,10 @@
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    .movie:hover {
+  .movie:hover {
       transform: translateY(-10px); /* Efeito hover para dar um "salto" */
       box-shadow: 0px 20px 30px rgba(0, 255, 204, 0.4); /* Brilho de neon */
     }
-
     .movie img {
       width: 100%;
       height: auto;
@@ -59,7 +58,7 @@
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
     }
 
-    .movie h2 {
+  .movie h2 {
       font-family: 'Orbitron', sans-serif;
       color: #00ffcc;
       margin: 15px 0;
@@ -67,7 +66,7 @@
       text-transform: uppercase;
     }
 
-    .movie a {
+   .movie a {
       display: inline-block;
       margin-top: 10px;
       text-decoration: none;
@@ -80,12 +79,12 @@
       transition: background-color 0.3s ease, box-shadow 0.3s ease;
     }
 
-    .movie a:hover {
+   .movie a:hover {
       background-color: #00b3a6; /* Neon mais escuro ao passar o mouse */
       box-shadow: 0px 10px 15px rgba(0, 255, 204, 0.5);
     }
 
-    footer {
+   footer {
       background-color: #333;
       text-align: center;
       padding: 20px;
@@ -93,14 +92,13 @@
       font-size: 14px;
       border-top: 5px solid #00ffcc;
     }
-
-    .category {
+   .category {
       text-align: center;
       width: 100%;
       margin-top: 40px;
     }
 
-    .category h2 {
+   .category h2 {
       font-family: 'Orbitron', sans-serif;
       color: #00ffcc;
       font-size: 36px;
@@ -163,4 +161,6 @@
 
 </body>
 </html>
+
+
 
